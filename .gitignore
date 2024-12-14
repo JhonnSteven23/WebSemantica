@@ -1,0 +1,23 @@
+# Ignorar Node Modules
+my-videogame-search/node_modules/
+backend/node_modules/
+
+# Ignorar salidas de compilación y distribución
+my-videogame-search/dist/
+backend/dist/
+
+# Ignorar archivos de configuración local y variables de entorno
+my-videogame-search/.env
+backend/.env
+
+# Ignorar logs
+*.log
+
+# Ignorar configuraciones de editor
+.vscode/
+.idea/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
