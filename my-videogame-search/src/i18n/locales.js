@@ -1,6 +1,11 @@
-const translations = {
+const locales = {
     es: {
         title: "Consultar Ontología",
+        description: "Una ontología es una representación estructurada de conocimiento que permite realizar consultas y obtener información específica. En esta interfaz, puedes realizar consultas SPARQL para explorar datos almacenados en la ontología.",
+        examples: "Ejemplos de Consultas:",
+        example1: "Listar las primeras 10 triples",
+        example2: "Consultar personas y sus edades",
+        example3: "Obtener todas las clases de la ontología",
         placeholder: "Escribe tu consulta SPARQL aquí",
         button: "Consultar",
         result: "Resultado:",
@@ -8,18 +13,28 @@ const translations = {
     },
     en: {
         title: "Query Ontology",
+        description: "An ontology is a structured representation of knowledge that allows queries to retrieve specific information. In this interface, you can perform SPARQL queries to explore data stored in the ontology.",
+        examples: "Query Examples:",
+        example1: "List the first 10 triples",
+        example2: "Query people and their ages",
+        example3: "Get all ontology classes",
         placeholder: "Write your SPARQL query here",
         button: "Query",
         result: "Result:",
         noResults: "No results to display.",
     },
     fr: {
-        title: "Consulter Ontologie",
+        title: "Consulter l'Ontologie",
+        description: "Une ontologie est une représentation structurée des connaissances permettant d'effectuer des requêtes et d'obtenir des informations spécifiques. Dans cette interface, vous pouvez exécuter des requêtes SPARQL pour explorer les données stockées dans l'ontologie.",
+        examples: "Exemples de Requêtes :",
+        example1: "Lister les 10 premières triplets",
+        example2: "Consulter les personnes et leurs âges",
+        example3: "Obtenir toutes les classes de l'ontologie",
         placeholder: "Écrivez votre requête SPARQL ici",
-        button: "Consulter",
-        result: "Résultat:",
+        button: "Rechercher",
+        result: "Résultat :",
         noResults: "Aucun résultat à afficher.",
     },
 };
 
-export default translations;
+export default locales;

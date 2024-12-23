@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const FUSEKI_ENDPOINT = "http://localhost:3030/Juegos/sparql";
+const FUSEKI_ENDPOINT = "http://localhost:3030/WebSemantica/sparql";
 
 // Ruta para la URL raíz
 app.get("/", (req, res) => {
